@@ -9,8 +9,7 @@ function waitFor(element, eventName) {
 
         resolve(message);
       },
-      { once: true },
-    );
+      { once: true });
   });
 }
 
